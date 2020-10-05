@@ -1,4 +1,4 @@
-example.property: "I AM IN THE DEFAULT"
+example.property="I AM IN THE DEFAULT"
 #mysql set-up
 spring.jpa.show-sql=true
 
