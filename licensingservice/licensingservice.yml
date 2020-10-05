@@ -2,7 +2,7 @@ example.property: "I AM IN THE DEFAULT"
 #mysql set-up
 spring.jpa.show-sql=true
 
-spring.datasource.url = jdbc:mysql://localhost:3306/ppmtourse
+spring.datasource.url = jdbc:mysql://localhost:3306/eagle_eye_local
 spring.datasource.username=root
 spring.datasource.password=root
 
