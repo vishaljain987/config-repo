@@ -4,6 +4,8 @@ example:
 #spring.jpa.show-sql=true
 
 spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
   datasource:
     url: jdbc:mysql://localhost:3306/eagle_eye_local
     username: root
