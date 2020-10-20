@@ -4,6 +4,10 @@ spring:
     username: root
     password: root
 
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8901/auth/user
 
 
 #spring.jpa.database: "POSTGRESQL"
