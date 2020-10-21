@@ -1,4 +1,5 @@
 zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
   ignored-services: "*"
   prefix: /api
   routes:
